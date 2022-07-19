@@ -52,3 +52,48 @@ body {
 .container img {
     width: 400px;
 }
+
+/* ------------------------header end-------------------- */
+
+/* -------------------------main start--------------------- */
+
+.container-2 {
+    width: 100%;
+    margin-right: 20px;
+
+}
+
+.sidebar {
+    font-size: 2em;
+    font-weight: 700;
+    padding-bottom: 30px;
+    margin-left: 100px;
+
+
+
+
+}
+
+.a-side {
+    border: 2px solid black;
+    padding: 2px;
+    margin-left: 0px;
+
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 230px;
+    margin-left: 100px;
+    padding-bottom: 50px;
+
+}
+
+.blog-img {
+    padding: 5px;
+    border: 2px solid rgb(112, 105, 105);
+    border-radius: 10px;
+    margin: 5px;
+    grid-row-gap: 20px
+}
