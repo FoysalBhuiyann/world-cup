@@ -59,8 +59,7 @@ body {
 
 .container-2 {
     margin-right: 20px;
-    position: relative;
-
+    position: relative
 }
 
 .main-sidebar {
@@ -74,7 +73,12 @@ body {
     background-color: white;
     border: 2px solid white;
     width: 100%;
+    height: 20px;
+    padding-left: 20px;
+}
 
+.a-side.extra {
+    background-color: rgb(245, 53, 53);
 }
 
 .a-side {
@@ -96,7 +100,13 @@ body {
     margin-left: 100px;
     width: 70%;
     width: 100%;
+    bottom: 30%;
 
+}
+
+.transfer {
+    color: rgb(54, 151, 151);
+    font-weight: 700;
 }
 
 .blog-img {
