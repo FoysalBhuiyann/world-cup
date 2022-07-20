@@ -58,42 +58,84 @@ body {
 /* -------------------------main start--------------------- */
 
 .container-2 {
-    width: 100%;
     margin-right: 20px;
+    position: relative;
 
+}
+
+.main-sidebar {
+    width: 18%;
+    margin: 2px;
 }
 
 .sidebar {
     font-size: 2em;
     font-weight: 700;
-    padding-bottom: 30px;
-    margin-left: 100px;
-
-
-
+    background-color: white;
+    border: 2px solid white;
+    width: 100%;
 
 }
 
 .a-side {
-    border: 2px solid black;
-    padding: 2px;
-    margin-left: 0px;
+    display: block;
+    border: 2px solid rgb(83, 76, 76);
+    border-radius: 30px;
+    text-align: center;
+    margin-left: 80px;
+
+
 
 }
+
 
 .main-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding-left: 230px;
+    padding-left: 170px;
     margin-left: 100px;
-    padding-bottom: 50px;
+    width: 70%;
+    width: 100%;
 
 }
 
 .blog-img {
     padding: 5px;
-    border: 2px solid rgb(112, 105, 105);
+    border: 1px solid wheat;
     border-radius: 10px;
-    margin: 5px;
+    margin: 3px;
     grid-row-gap: 20px
+}
+
+/* --------------------------main end---------------------- */
+
+/* --------------------------footer start-------------------- */
+
+.goal {
+    text-align: center;
+    font-size: 2em;
+    background-color: rgb(20, 18, 18);
+    color: azure;
+    align-items: center;
+    border: 20px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.footer {
+    display: flex;
+    font-size: 10px;
+    gap: 15px;
+    padding-left: 420px;
+    margin-bottom: 20px;
+}
+
+/* --------------------footer end------------------- */
+
+/* --------------------Social link-------------------- */
+
+.social-id {
+    display: flex;
+    gap: 17px;
+    padding-left: 540px;
 }
