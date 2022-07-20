@@ -49,6 +49,10 @@ body {
 
 }
 
+.watch-live:hover {
+    background-color: cornflowerblue;
+}
+
 .container img {
     width: 400px;
 }
