@@ -8,7 +8,7 @@ body {
     font-family: 'Barlow Semi Condensed', sans-serif;
 }
 
-/*---------------------- header start------------------------ */
+/*---------------------- top-banner -----------------------*/
 
 .container {
     background-color: rgb(20, 18, 18);
@@ -53,18 +53,14 @@ body {
     width: 400px;
 }
 
-/* ------------------------header end-------------------- */
+/*------------------------------- top-banner-end -----------------------*/
 
-/* -------------------------main start--------------------- */
 
-.container-2 {
-    margin-right: 20px;
-    position: relative;
-}
+/*--------------------------------- start-main --------------------------*/
 
-.main-sidebar {
-    width: 18%;
-    margin: 2px;
+.sidebar-flag {
+    width: 50%;
+    display: flexbox;
 }
 
 .sidebar {
@@ -72,9 +68,11 @@ body {
     font-weight: 700;
     background-color: white;
     border: 2px solid white;
-    width: 100%;
+    width: 28%;
     height: 20px;
-    padding-left: 20px;
+    padding-left: 90px;
+    text-align: center;
+
 }
 
 .a-side.extra {
@@ -82,42 +80,34 @@ body {
 }
 
 .a-side {
-    display: block;
-    border: 2px solid rgb(83, 76, 76);
-    border-radius: 30px;
-    text-align: center;
-    margin-left: 80px;
-
-
-
+    border: 2px solid black;
+    border-radius: 15px;
 }
 
-
-.main-container {
+.flag-detail {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    padding-left: 170px;
-    margin-left: 100px;
-    width: 70%;
-    width: 100%;
-    bottom: 30%;
+    width: 150%;
+    margin-left: 300px;
+    bottom: 40%;
 
-}
 
-.transfer {
-    color: rgb(54, 151, 151);
-    font-weight: 700;
+
 }
 
 .blog-img {
-    padding: 5px;
-    border: 1px solid wheat;
-    border-radius: 10px;
-    margin: 3px;
-    grid-row-gap: 20px
+    border: 2px solid rgb(216, 218, 218);
+    text-align: center;
+    align-items: center;
+    margin: 20px;
+    bottom: 40px;
+    border: 30px;
 }
 
-/* --------------------------main end---------------------- */
+small {
+    color: gray;
+    font-weight: 700;
+}
 
 /* --------------------------footer start-------------------- */
 
@@ -128,8 +118,9 @@ body {
     color: azure;
     align-items: center;
     border: 20px;
-    padding: 40px;
+    padding: 70px;
     border-radius: 20px;
+    padding-top: 40px;
 }
 
 .footer {
@@ -147,5 +138,8 @@ body {
 .social-id {
     display: flex;
     gap: 17px;
-    padding-left: 540px;
+    padding-left: 510px;
 }
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------END-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
